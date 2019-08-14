@@ -2,7 +2,7 @@ library("RSelenium")
 library("wdman")
 
 # Disabling pop - up box and choosing default download directory
-capB <- list(chromeOptions =
+capb <- list(chromeOptions =
                list(
                  "useAutomationExtension" =  FALSE,
                  prefs =
